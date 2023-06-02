@@ -3,7 +3,7 @@ import datetime as dt
 import requests
 import base64
 
-st.markdown("""# Welcome to this amazing TaxiFareModel front
+st.markdown(""":red[red]# Welcome to this amazing TaxiFareModel
 ## Let's do some fancy prediction""")
 
 '''
