@@ -3,8 +3,8 @@ import datetime as dt
 import requests
 import base64
 
-st.markdown("""#:white[Welcome to this amazing TaxiFareModel]
-##:white[Let's do some fancy prediction]""")
+st.markdown("""# :white[Welcome to this amazing TaxiFareModel]
+## :white[Let's do some fancy prediction]""")
 
 '''
 :white[Please specify the details of your imaginary ride]
