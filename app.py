@@ -51,7 +51,7 @@ file_.close()
 if submit_button:
     resp = requests.get(url, params=data)
     prediction = resp.json()
-    fare = prediction["fare_amount"]
+    fare = "{:.2f}".format(prediction["fare_amount"])
     st.write(f"YOUR IMAGINARY FAIR PRICE IS {fare}")
     st.markdown(
         f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
