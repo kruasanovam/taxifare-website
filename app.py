@@ -3,11 +3,11 @@ import datetime as dt
 import requests
 import base64
 
-st.markdown(""":red[Welcome to this amazing TaxiFareModel]
-## Let's do some fancy prediction""")
+st.markdown("""#:white[Welcome to this amazing TaxiFareModel]
+##:white[Let's do some fancy prediction]""")
 
 '''
-Please specify the details of your imaginary ride
+:white[Please specify the details of your imaginary ride]
 '''
 
 with st.form(key='my_form'):
