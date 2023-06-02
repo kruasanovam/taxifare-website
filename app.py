@@ -1,7 +1,6 @@
 import streamlit as st
 import datetime as dt
 import requests
-from PIL import Image
 import base64
 
 st.markdown("""# Welcome to this amazing TaxiFareModel front
@@ -22,7 +21,7 @@ with st.form(key='my_form'):
     submit_button = st.form_submit_button(label='Submit')
     datetime = dt.datetime.combine(date, time)
 
-url = 'https://taxifare.lewagon.ai/predict'
+url = 'https://masha-qjpoayquoq-ew.a.run.app/predict'
 
 if url == 'https://taxifare.lewagon.ai/predict':
 
